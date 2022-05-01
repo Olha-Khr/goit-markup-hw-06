@@ -678,7 +678,7 @@ a {
 }
 
 .footer .subtitle {
-  color: var(--main-text-color-light);
+  color: var(--primare-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -775,6 +775,17 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-modal .icon {
+  width: 11px;
+  height: 11px;
+  color: currentColor;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 /* _________form____________ */
 .modal-title {
